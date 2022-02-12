@@ -1,9 +1,12 @@
 {
-  "babelMacros": {
-    "twin": {
-      "preset": "emotion"
-    }
-  },
+  "name": "twinwind",
+  "version": "0.1.0",
+  "packageManager": "yarn@3.1.1",
+  "license": "MIT",
+  "author": "<your name>",
+  "contributors": [
+    "Aryan Mann"
+  ],
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -32,5 +35,9 @@
     "twin.macro": "^2.8.1",
     "typescript": "^4.4.4"
   },
-  "version": "0.0.0"
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
+  }
 }
